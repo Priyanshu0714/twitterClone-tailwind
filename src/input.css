@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar-hidden-on-idle::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  .scrollbar-hidden-on-idle::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 9999px;
+  }
+  .scrollbar-hidden-on-idle::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  /* .scrollbar-hidden-on-idle:not(:hover)::-webkit-scrollbar {
+    width: 0;
+  } */
